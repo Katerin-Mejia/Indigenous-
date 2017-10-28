@@ -16,6 +16,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Merriweather+Sans" rel="stylesheet">
+    
+    
   </head>
 
   <body>
@@ -26,24 +31,31 @@
 
         <div class="cover-container">
 
-          <header class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">lengua Indigena</h3>
-              <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
-              </nav>
-            </div>
-
-          </header>
+        <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navgray">
+        <a class="navbar-brand titlefont2" href="#">Indigenous</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+          
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <button class="btn btn-outli" type="submit">Iniciar Sesión</button>
+          </form>
+        </div>
+      </nav>
+    </header>
 
 
           <main role="main" class="inner cover">
-            <h1 class="cover-heading">Lengua Indigena.</h1>
-            <p class="lead">Each lesson is like a game</p>
+            <h1 class="cover-heading titlefont">Indigenous</h1>
+            <p class="lead bigwords" id="p1">Cada lección es un juego</p>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-secondary">Start</a>
+              <a href="#" class="btn btn-lg btn-secondary">COMENZAR</a>
+               <div class="col-lg-12">
             </p>
           </main>
 
@@ -53,30 +65,28 @@
 
     </div>
 
-    
-
-
-    <div class="row" style="padding-top: 3rem">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+   
+    <div class="row" style="padding-top: 3rem; margin-left: 0; margin-right: 0;">
+          <div class="col-xs-4 col-sm-6 col-md-6 col-lg-12">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <h2 id="head">ESCUCHAR</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+          <div class=" col-xs-4 col-sm-6 col-md-6 col-lg-12">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <h2 id="head">ESCRIBIR</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>           
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+          <div class="col-xs-4 col-sm-6 col-md-6 col-lg-12">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <h2 id="head">HABLAR</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           </div><!-- /.col-lg-4 -->
         </div>
 
     <footer>
         <div class="inner">
-          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+          <p>   </p>
         </div>
     </footer>
 
@@ -86,6 +96,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
    <!--  <script src="../../../../assets/js/vendor/popper.min.js"></script> -->
-    <script src=" js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
+
 </html>

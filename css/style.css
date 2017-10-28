@@ -1,0 +1,50 @@
+.bigwords {
+	font-size: 2em;
+}
+.titlefont {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 3em;
+}
+
+.navgray {
+	background-color: rgba(150, 150, 150, 0.06);
+}
+
+.titlefont2 {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+}
+
+body{
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 500px) {
+	body{
+    	width: 100%;
+    	float: left;
+	}
+
+  	.inner.cover{
+  		margin: 200px auto;
+  	}     
+}
+
+ p {
+ 	color: black;
+ }
+
+ #p1 {
+ 	color: white;
+ }
+
+ #head {
+ 	color:#61380B;
+ }
+
+.jumbotron{
+	background-image: url("../img/1.jpg");
+    background-size: cover;
+}
